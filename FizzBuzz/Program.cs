@@ -1,5 +1,4 @@
 ﻿using System;
-
 namespace FizzBuzz
 {
     class Program
@@ -9,8 +8,6 @@ namespace FizzBuzz
             int NumFizz = 0;
             int NumBuzz = 0;
             int NumFizzBuzz = 0;
-
-            System.Console.WriteLine();
             for (int i = 1; i < 101; i++)
             {
                 if (i % 3 == 0 && i % 5 != 0)
