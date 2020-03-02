@@ -39,7 +39,7 @@ namespace FizzBuzz
             /* 
             FIZZ = 27 
             BUZZ = 14
-            FIZZBUZZ = 7
+            FIZZBUZZ = 6
             */
         }
     }
