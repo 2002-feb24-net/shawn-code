@@ -43,7 +43,6 @@ VALUES (2,2,3);
 INSERT INTO Orders (ID, ProductID, CustomerID)
 VALUES (3,1,1);
 
-
 INSERT INTO Products (ID, Name, Price)
 VALUES (4,'iPhone', '200');
 
