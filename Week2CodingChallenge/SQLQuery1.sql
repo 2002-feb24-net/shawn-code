@@ -57,6 +57,10 @@ VALUES (5,4,4);
 SELECT * FROM Orders
 WHERE CustomerID=4; 
 
+UPDATE Products
+SET Price = '250'
+WHERE ID=4; 
+
 SELECT 
 (SELECT COUNT(*) FROM Orders WHERE ProductId = 4)
 * 
